@@ -1,0 +1,13 @@
+@import "../var";
+
+.a {
+    .b {
+        .c{
+            background-color: $mainColor;
+            color: white;
+            &:hover {
+                background-color: $subColor;
+            }
+        }
+    }
+}

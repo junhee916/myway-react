@@ -1,0 +1,53 @@
+/* MainPage.css */
+
+.search:hover{
+    background-color: tomato;
+}
+
+.start_url_change:hover{
+    background-color: tomato;
+}
+
+.end_url_change:hover{
+    background-color: tomato;
+}
+
+.point_send>div:hover{
+    background-color: tomato;
+}
+
+.ok_btn:hover{
+    background-color: tomato;
+}
+
+.logout_btn:hover{
+    background-color: tomato;
+}
+
+.user_nickname:hover{
+    color:tomato
+}
+
+.change_text:hover{
+    color:tomato
+}
+
+.start_option_btn:hover{
+    background-color: tomato;
+}
+
+.start_total_text:hover{
+    color: tomato;
+}
+
+.profile_change_text:hover{
+     background-color: tomato;
+}
+
+.profile_todo_text:hover{
+     background-color: tomato;
+}
+
+.login_btn:hover{
+    background-color: tomato;
+}

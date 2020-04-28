@@ -1,0 +1,156 @@
+.landing_posts{
+    height: 683px;
+}
+
+.landing_contents_posts{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.landing_contents_zero{
+    width: 200px;
+    height: 100%;
+    background-color: white;
+}
+
+.landing_contents_main{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 1319.2px;
+    margin-left:20px;
+}
+
+.landing_start{
+    width:663.6px;
+    height:100%;
+    background-image: url("../img/bluesky.jpg");
+    border-radius: 8px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing_arrival{
+    width:655.6px;
+    height:100%;
+    background-image: url("../img//blacksky.jpg");
+    border-left: 8px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing_start_data{
+    width: 430px;
+    height: 580px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.start_total_ctrl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.start_total_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    color:white;
+    width: 400px;
+}
+
+.start_station{
+    margin-top: 20px;
+    width: 400px;
+    height: 430px;
+    background-color: white;
+}
+
+.start_img{
+    width: 40px;
+    height: 40px;
+    margin-right:10px;
+    padding-left:20px
+}
+
+.start_subway_img{
+    width: 50px;
+    height:50px;
+    margin-left:-8px;
+    margin-bottom: -10px;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+.start_img_ctrl{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.start_detail_time{
+    font-size: 20px;
+}
+
+.start_subway_time{
+    font-size: 20px;
+    padding-left:-10px;
+}
+
+.start_timmer_text{
+    display: flex;
+    flex-direction: row;
+    margin-top:20px;
+}
+
+.start_timmer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hour_min_second_ctrl{
+    display: flex;
+    flex-direction: row;
+.hour_text{
+   font-size:50px;
+   option{
+       font-size:15px;
+       font-weight: bolder;
+   }
+}
+}
+
+.reverse_ctrl{
+    display: flex;
+    flex-direction: row;
+    input{
+        width: 280px;
+        font-size: 50px;
+        font-weight: bolder;
+        padding-left:10px;
+    }
+ .reverse_add_btn{
+     background-color: rgb(129, 198, 230);
+     color: black;
+     &:hover{
+       background-color: tomato;
+     }
+ }
+}
+
+
+
